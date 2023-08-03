@@ -1,0 +1,206 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* &SHORTCUT BAR STARTS HERE */
+#shortcutBar {
+    margin-top: 50px;
+}
+#shortcutBar .cardOneTwo {
+    padding-right: 30px;
+}
+#shortcutBar .cardOneTwo .cardOne {
+    height: 300px;
+    background-image: url(../images/Image\ here\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+}
+#shortcutBar .cardOneTwo .cardOne .cardOneCnt {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.249);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+#shortcutBar .cardOneTwo .cardOne:hover .cardOneCnt {
+    opacity: 1;
+    visibility: visible;
+}
+#shortcutBar .cardOneTwo .cardOne:hover .cardOneCnt .cardOneCntChild {
+    opacity: 1;
+    visibility: visible;
+}
+#shortcutBar .cardOneTwo .cardOne .cardOneCnt h2 {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+#shortcutBar .cardOneTwo .cardOne .cardOneCnt a {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+#shortcutBar .cardOneTwo .cardOne .cardOneCnt .cardOneCntChild {
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#shortcutBar .cardOneTwo .cardTwo {
+    height: 300px;
+    background-image: url(../images/Image\ here\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#shortcutBar .cardOneTwo .cardTwo .cardTwoCnt {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.249);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+#shortcutBar .cardOneTwo .cardTwo:hover .cardTwoCnt {
+    opacity: 1;
+    visibility: visible;
+}
+#shortcutBar .cardOneTwo .cardTwo:hover .cardTwoCnt .cardTwoCntChild {
+    opacity: 1;
+    visibility: visible;
+}
+#shortcutBar .cardOneTwo .cardTwo .cardTwoCnt h2 {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+#shortcutBar .cardOneTwo .cardTwo .cardTwoCnt a {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+#shortcutBar .cardOneTwo .cardTwo .cardTwoCnt .cardTwoCntChild {
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s linear;
+    transition-delay: 0.2s;
+}
+#shortcutBar .cardThree {
+    height: 622px;
+    background-image: url(../images/Image\ here\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#shortcutBar .cardThree .cardThreeCnt {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.249);
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+    margin: auto;
+    display: flex;
+}
+#shortcutBar .cardThree:hover .cardThreeCnt {
+    opacity: 1;
+    visibility: visible;
+}
+#shortcutBar .cardThree:hover .cardThreeCnt .cardThreeCntChild {
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+}
+#shortcutBar .cardThree .cardThreeCnt h2 {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+#shortcutBar .cardThree .cardThreeCnt a {
+    align-items: center;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+#shortcutBar .cardThree .cardThreeCnt .cardThreeCntChild {
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s linear;
+    transition-delay: 0.2s;
+}
+/* &SHORTCUT BAR ENDS HERE */

@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    #shortcutBar .cardOneTwo .cardOne .cardOneCnt {
+        visibility: visible;
+        opacity: 1;
+    }
+    #shortcutBar .cardOneTwo .cardOne .cardOneCnt .cardOneCntChild {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #shortcutBar .cardOneTwo .cardTwo .cardTwoCnt {
+        visibility: visible;
+        opacity: 1;
+    }
+    #shortcutBar .cardOneTwo .cardTwo .cardTwoCnt .cardTwoCntChild {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #shortcutBar .cardThree .cardThreeCnt {
+        opacity: 1;
+        visibility: visible;
+    }
+    #shortcutBar .cardThree .cardThreeCnt .cardThreeCntChild {
+        opacity: 1;
+        visibility: visible;
+    }
+    #shortcutBar .cardOneTwo {
+        padding-right: 12px;
+    }
+    #shortcutBar .cardthree {
+        padding-left: 0pxpx;
+    }
+}
+
